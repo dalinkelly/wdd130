@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+:root {
+    --primary-color: #a8abae
+    --secondary-color: #edd46c
+    --accent1-color: #223351
+    --accent2-color: #1b1b1a
+
+    --heading-font: 'Goldman', display;
+    --paragraph-font: 'Goldman', display;
+
+    --nav-background-color: #fffcf2
+    --nav-link-color: #3454d1
+    --nav-hover-link-color: #bf9aca
+    --nav-hover-background-color: #1b1b1a
+}
+
+body {
+    font-family: goldman;
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: goldman;
+    color: #a8abae;
+}
+
+header {
+    padding: 20px;
+    background-color: #223351;
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: #edd46c;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: #3454d1;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: #3454d1
+}
+
+nav a:hover {
+    color: #bf9aca;
+    background-color: #1b1b1a;
+    
+}
