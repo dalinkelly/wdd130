@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+:root {
+    --primary-color: #a8abae
+    --secondary-color: #edd46c
+    --accent1-color: #223351
+    --accent2-color: #1b1b1a
+
+    --heading-font: 'Goldman', display;
+    --paragraph-font: 'Goldman', display;
+
+    --nav-background-color: #fffcf2
+    --nav-link-color: #3454d1
+    --nav-hover-link-color: #bf9aca
+    --nav-hover-background-color: #1b1b1a
+}
+
+body {
+    font-family: goldman;
+    max-width: 940px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: goldman;
+    color: #a8abae;
+    padding: 10px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hero h1 {
+    position: absolute;
+    background-color: hsl(220, 95%, 14%, 0.5);
+    width: 920px;
+    top: 30px;
+    left: 0px;
+    text-align: center;
+    color: #a8abae;
+}
+
+.hero article {
+    position: absolute;
+    background-color: hsl(220, 95%, 14%, 0.5);
+    width: 940px;
+    top: 109.5px;
+    left: 0px;
+    text-align: center;
+    color: #a8abae;
+}
+
+.hero h2 {
+    position: absolute;
+    background-color: hsl(220, 95%, 14%, 0.5);
+    width: 920px;
+    top: 200px;
+    left: 0px;
+    text-align: center;
+    color: #a8abae;
+}
+
+.phone{
+    position: absolute;
+    background-color: hsl(220, 95%, 14%, 0.5);
+    width: 940px;
+    top: 100px;
+    left: 0px;
+    text-align: center;
+    color: #a8abae;   
+}
+
+header {
+    display: grid;
+    grid-template-columns: 320px 1fr 2fr;
+    align-items: center;
+    padding: 20px;
+    background-color: #223351;
+    max-width: 1000px;
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: #edd46c;
+    font-size: 1.2rem;
+    display: flex;
+    color: #1b1b1a;
+}
+
+nav a {
+    display: grid;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: #1b1b1a
+}
+
+nav a:hover {
+    color: #edd46c;
+    background-color: #1b1b1a;
+    
+}
+
+.logo img {
+    margin: 0rem;
+    width: 300px;
+    height: auto;
+}
+
+.history {
+    display: grid;
+}
+
+.heading h2 {
+    position: relative;
+    text-align: center;
+    background-color: #223351;
+    bottom: 19.5px;
+}
+
+.two img {
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    float: left;
+    background-color: #edd46c;
+}
+
+.one {
+    position: relative;
+    width: auto;
+    text-align: center;
+    background-color: #223351;
+    bottom: 40px;
+    color: #a8abae;
+}
+
+.adventure h2 {
+    position: relative;
+    text-align: center;
+    background-color: #223351;
+}
+
+.a {
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin-top: 0.25rem;
+}
+
+.b {
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin-left: 22.14rem;
+}
+
+.c {
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin-left: 44.28rem;
+}
+
+.d {
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin-top: 15.7rem;
+    margin-left: 11.07rem;
+}
+
+.e {
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 33.21rem;
+}
+
+figure {
+    border: thin #1b1b1a solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #1b1b1a;
+    color: #a8abae;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #edd46c;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: #223351;
+    font-size: 1.3rem;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: royalblue;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 5fr 2fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 6fr 5fr;
+    margin: 0.5rem 0;
+}
