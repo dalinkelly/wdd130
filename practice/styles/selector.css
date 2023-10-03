@@ -1,0 +1,44 @@
+/* ranked in terms of specificity for body p */
+
+/* 5th */
+p {
+    color: red;
+}
+
+/* 4th */
+.mypara {
+    color: green;
+}
+
+/* 2nd */
+#byui {
+    color: blue;
+}
+
+/* 3rd */
+p.mypara {
+    color: orange;
+}
+
+/* 1st */
+#byui.mypara {
+    color: hotpink;
+}
+
+footer p {
+    color: chartreuse;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: aliceblue;
+    color: steelblue;
+}
+
+p:nth-child(odd) {
+    border: 1px solid blue;
+}

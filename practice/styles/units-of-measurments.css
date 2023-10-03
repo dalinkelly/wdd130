@@ -1,0 +1,16 @@
+img {
+    width: 80%;
+}
+
+p {
+    width: 80%;
+}
+
+a {
+    font-size: 1.5em;
+}
+
+nav {
+    height: 20vh;
+    border: 1px solid blue;
+}
