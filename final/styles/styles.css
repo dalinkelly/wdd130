@@ -134,18 +134,18 @@ main {
     max-width: 400px;
     max-height: 300px;
     border: #C4CED4 solid 2px;
-    margin: 200px, 20px;
 }
 
 .stadium-card {
     grid-column: 2/4;
     grid-row: 3/4;
+    margin-top: 100px;
 }
 
 .julio-card {
     grid-column: 7/9;
     grid-row: 3/4;
-    margin-top: 10px;
+    margin-top: 110px;
 }
 
 .seattle {
@@ -153,8 +153,7 @@ main {
     border: #C4CED4 solid 2px;
     grid-column: 2/7;
     grid-row: 5/8;
-    margin: 200px, 0;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 h1 {
@@ -177,7 +176,7 @@ h1 {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    margin-top: 50px;
+    margin-top: 150px;
     opacity: 90%;
     border: #C4CED4 solid 2px;
 }
