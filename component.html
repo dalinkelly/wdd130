@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordian Component Example</title>
+    <link rel="stylesheet" href="component-styles.css">
+</head>
+<body>
+    <h1>My Favorites</h1>
+    <h2>MLB Edition</h2>
+    <button class="accordion">MLB Players</button>
+    <div class="panel">
+        <p>Three of my favorite MLB players right now are Julio Rodriguez, J.P. Crawford, and Bryce Harper</p>
+    </div>
+
+    <button class="accordion">MLB Teams</button>
+    <div class="panel">
+        <p>Three of my favorite MLB teams right now are the Seattle Mariners, Arizona Diamondbacks, and Pittsburg Pirates</p>
+    </div>
+
+    <button class="accordion">MLB Stadiums</button>
+    <div class="panel">
+        <p>Three of my favorite MLB stadiums right now is PNC Park (home of the Pittsburg Pirates), Angel Stadium of Anaheim (home of the Los Angeles Angels), and T-Mobile Park (home of the Seattle Mariners)</p>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+        });
+        }
+    </script>
+</body>
+</html>
