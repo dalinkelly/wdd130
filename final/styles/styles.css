@@ -51,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color:#005C5C;
+    background-color:#0C2C56;
     color:#C4CED4;
 }
 
@@ -156,21 +156,21 @@ main {
     margin-top: 150px;
 }
 
-h1 {
+.home-h1 {
     color: #C4CED4;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
     margin: 0;
 }
 
-.intro {
+.text {
     color: #C4CED4;
     text-align: center;
     font-family: Ubuntu, sans-serif;
     font-size: 0.7em;
 }
 
-.msg {
+.msg-home{
     background-color: #005C5C;
     line-height: 1.25em;
     padding: 35px;
@@ -179,6 +179,97 @@ h1 {
     margin-top: 150px;
     opacity: 90%;
     border: #C4CED4 solid 2px;
+}
+
+/* moments page */
+
+.moments-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#background1 {
+    background-color: #005C5C;
+    grid-column: 1/11;
+    grid-row: 4/15;
+}
+
+.celebration {
+    max-width: 700px;
+    border: #0C2C56 solid 2px;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.msg-moments1 {
+    background-color: #C4CED4;
+    line-height: 1.25em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    border: #0C2C56 solid 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px
+}
+
+.moments-h1 {
+    color: #0C2C56;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    margin: 0;
+}
+
+.moments-text {
+    color: #0C2C56;
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    font-size: 0.7em;
+}
+
+.banner {
+    max-width: 700px;
+    border: #0C2C56 solid 2px;
+    grid-column: 6/10;
+    grid-row: 8/11;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 695px;
+}
+
+.msg-moments2 {
+    background-color: #C4CED4;
+    line-height: 1.25em;
+    padding: 35px;
+    grid-column: 2/7;
+    grid-row: 9/10;
+    border: #0C2C56 solid 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-height: 250px;
+}
+
+.cal {
+    max-width: 700px;
+    border: #0C2C56 solid 2px;
+    grid-column: 2/7;
+    grid-row: 11/14;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.msg-moments3 {
+    background-color: #C4CED4;
+    line-height: 1.25em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 12/13;
+    border: #0C2C56 solid 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
 }
 
 footer {
